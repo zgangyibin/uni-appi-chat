@@ -1,0 +1,35 @@
+.login{
+	width: 750rpx;
+	height: 100vh;
+	background-image: url(/static/imgs/loginbg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	color: #a09b94;
+}
+.logo-view{
+		text-align: center;
+		@include setRpx("margin-top", 180);
+}
+.logo{
+	@include setRpx("width", 176);
+	@include setRpx("height", 176);
+	border-radius: 30%;
+}
+.text{
+	display: block;
+	color: #e7f2e1;
+	@include setRpx("font-size", 50);
+}
+.content {
+	@include setRpx("width",526);
+	margin: 0 auto;
+	@include setRpx("margin-top",50);
+}
+.submit {
+	background-color: #4c6fa9;
+}
+.footer {
+	text-align: center;
+	@include setRpx("margin-top",50);
+}

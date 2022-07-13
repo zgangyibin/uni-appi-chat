@@ -1,0 +1,80 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",//自定义导航条
+				"navigationBarTitleText": "通讯录"
+			}
+		},
+		{
+			"path": "pages/alert/alert",
+			"style": {
+				
+				"navigationBarTitleText": "消息"
+			}
+
+		},
+		{
+			"path": "pages/friends/friends",
+			"style": {
+				
+				"navigationBarTitleText": "查找好友"
+			}
+		
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		
+		}
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",//自定义导航条
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "唠嗑"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTitleText": "chat-one",
+		"navigationBarBackgroundColor": "#242a32",
+		"backgroundColor": "#fff",
+		"app-plus": {
+			"background": "#242a32"
+		}
+	},
+	"tabBar": {
+		"color": "#a09b94",
+		"selectedColor": "#fff",
+		"borderStyle": "#a09b94",
+		"backgroundColor": "#242a32",
+		"list": [{
+			"pagePath": "pages/alert/alert",
+			"iconPath": "static/imgs/chata.png",
+			"selectedIconPath": "static/imgs/chatb.png",
+			"text": "消息"
+		},
+			{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/imgs/frienda.png",
+			"selectedIconPath": "static/imgs/frienda.png",
+			"text": "通讯录"
+		}, 
+		{
+			"pagePath": "pages/my/my",
+			"iconPath": "static/imgs/mya.png",
+			"selectedIconPath": "static/imgs/myb.png",
+			"text": "我的"
+		}]
+	}
+}

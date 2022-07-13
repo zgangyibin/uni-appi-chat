@@ -1,0 +1,28 @@
+.my-bg{
+	width: 750rpx;
+	height: 100vh;
+	background-image: url(/static/imgs/profilebg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	// overflow: hidden;
+	color: #a09b94;
+}
+.avatar-pop {
+	@include setRpx("padding",50);
+	background-color: #ffffff;
+}
+.avatar-con {
+	
+	@include setRpx("margin-top",15);
+	text-align: center;
+	@include setRpx("font-size",50);
+}
+.avatar{
+	@include setRpx("width",120);
+	@include setRpx("height",120);
+	border-radius: 50%;
+	border: 2px solid #a1a19d;
+} 
+.f-5 {
+	@include setRpx("font-size",20);
+}

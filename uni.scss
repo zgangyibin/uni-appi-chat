@@ -1,0 +1,16 @@
+@import '@/uni_modules/uni-scss/variables.scss';
+@mixin setRpx($name,$px) { // 使用mixin自动把ps转为rpx
+	#{$name}: calc(750 / 640 * #{$px}rpx);
+}
+// 公共样式
+.container{
+	width: 750rpx;
+	min-height: 100vh;
+	background-color: #242a32;
+	color: #a09b94;
+	padding-top: 1px;
+}
+
+.mt-1 {
+	@include setRpx("margin-top",25);
+}
